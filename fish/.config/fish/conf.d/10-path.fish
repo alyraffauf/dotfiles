@@ -21,6 +21,10 @@ if test -n "$homebrew_prefix"
         fish_add_path --path --prepend --move "$homebrew_prefix/opt/uutils-coreutils/libexec/uubin"
     end
 
+    if test -d "$homebrew_prefix/opt/uutils-diffutils/libexec/uubin"
+        fish_add_path --path --prepend --move "$homebrew_prefix/opt/uutils-diffutils/libexec/uubin"
+    end
+
     if test -d "$homebrew_prefix/opt/uutils-findutils/libexec/uubin"
         fish_add_path --path --prepend --move "$homebrew_prefix/opt/uutils-findutils/libexec/uubin"
     end
