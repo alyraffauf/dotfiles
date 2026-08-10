@@ -1,0 +1,11 @@
+general.import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
+
+[window]
+dynamic_padding = true
+blur = true
+
+[terminal]
+shell = { program = "/home/linuxbrew/.linuxbrew/bin/tmux", args = ["new-session", "-A", "-s", "main"] }
