@@ -1,0 +1,4 @@
+version = 1
+
+[symlinks.darwin]
+".config/Code/User" = ["Library/Application Support/Code/User"]

@@ -1,0 +1,4 @@
+version = 1
+
+[symlinks.linux]
+".config/zed" = [".var/app/dev.zed.Zed/config/zed"]

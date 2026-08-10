@@ -1,0 +1,4 @@
+version = 1
+
+[symlinks.darwin]
+".config/sh.cider.genten" = ["Library/Application Support/sh.cider.genten"]

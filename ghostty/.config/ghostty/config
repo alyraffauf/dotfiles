@@ -1,0 +1,12 @@
+# Shared
+theme = Catppuccin Frappe
+notify-on-command-finish = unfocused
+tab-inherit-working-directory = false
+window-inherit-working-directory = false
+
+## Fonts
+font-family = CaskaydiaCove Nerd Font
+# Linux-only config
+gtk-titlebar-style = tabs
+window-theme = dark
+linux-cgroup = always
