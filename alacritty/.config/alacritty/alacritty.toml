@@ -4,6 +4,7 @@ general.import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
 
 [window]
+decorations = "None"
 dynamic_padding = true
 blur = true
 
