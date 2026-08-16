@@ -14,7 +14,7 @@
         "enableSessionSearch": true,
         "enableSettingsSearch": true,
         "enableWindowsSearch": true,
-        "iconMode": "tabler",
+        "iconMode": "native",
         "ignoreMouseInput": false,
         "overviewLayer": false,
         "pinnedApps": [
@@ -303,7 +303,7 @@
         "backgroundOpacity": 1,
         "colorizeIcons": false,
         "deadOpacity": 0.6,
-        "displayMode": "auto_hide",
+        "displayMode": "always_visible",
         "dockType": "attached",
         "enabled": false,
         "floatingRatio": 1,
@@ -323,12 +323,11 @@
         ],
         "onlySameOutput": true,
         "pinnedApps": [
-            "helium",
-            "dev.zed.Zed",
-            "com.mitchellh.ghostty"
+            "com.mitchellh.ghostty",
+            "app.zen_browser.zen"
         ],
-        "pinnedStatic": false,
-        "position": "left",
+        "pinnedStatic": true,
+        "position": "bottom",
         "showDockIndicator": false,
         "showLauncherIcon": false,
         "sitOnFrame": false,
@@ -416,14 +415,14 @@
         "enabled": true,
         "fadeDuration": 5,
         "lockCommand": "",
-        "lockTimeout": 660,
+        "lockTimeout": 1260,
         "resumeLockCommand": "",
         "resumeScreenOffCommand": "",
         "resumeSuspendCommand": "",
         "screenOffCommand": "",
-        "screenOffTimeout": 600,
+        "screenOffTimeout": 1200,
         "suspendCommand": "",
-        "suspendTimeout": 1800
+        "suspendTimeout": 0
     },
     "location": {
         "analogClockInCalendar": false,
@@ -511,7 +510,7 @@
         "overlayLayer": true
     },
     "plugins": {
-        "autoUpdate": false,
+        "autoUpdate": true,
         "notifyUpdates": true
     },
     "sessionMenu": {
@@ -626,7 +625,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/aly/wallpapers",
+        "directory": "/home/aly/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
